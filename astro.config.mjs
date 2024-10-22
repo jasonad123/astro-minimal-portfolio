@@ -14,4 +14,7 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [remarkReadingTime],
   },
+  image: {
+    remotePatterns: [{ protocol: "https" }],
+  }
 });
